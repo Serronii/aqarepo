@@ -26,7 +26,7 @@ public class Operators {
         //Унарный минус (negation)
         int x = 5;
         int y = -x;
-        System.out.println(x + y + " Whats happend");
+        System.out.println(x + y + " What's happened");
 
 
         /**                      Division operator       /                        */
