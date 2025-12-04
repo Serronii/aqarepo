@@ -1,23 +1,24 @@
 package lesson2;
 
-public class ConditionalStatements {
+public class ConditionalStatementsIF {
 
     public static void main(String[] args) {
 
+        /**       The "IF" statement is used to check conditions that evaluate to true or false.    */
 
-        /**     Check one condition.          */
+        /**                     Check one condition.          */
         if (10 > 9) { // условие
             System.out.println("true"); //выполнение кода если условие = true, если будет false, код не выполнится
         }
 
-        /**     Check two conditions : true and false       */
+        /**                   Check two conditions : true and false       */
         if (10 == 9) {
             System.out.println("True cond"); //выполняется когда тру
         } else {
             System.out.println("false cond"); //выполняется когда фолс
         }
 
-        /**    Used when there are several options.        */
+        /**                     Used when there are several options.        */
         int number =  75;
 
         if (number < 10){
@@ -30,10 +31,10 @@ public class ConditionalStatements {
             System.out.println("Els4"); // выполнится если все остальное не тру
         }
 
-        /**    Conditional logical operators                 */
+        /**                     Conditional logical operators                 */
         //     &  → оба условия должны быть true.
         if (5+4 > 4 & 24 == 20 + 4) {
-            System.out.println("true condition 1");
+            System.out.println("true condition 1"); //выполнится если  оба условия должны быть true.
         }
 
         //     || → хотя бы одно условие true.
