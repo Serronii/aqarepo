@@ -13,9 +13,9 @@ public class ConditionalStatementsIF {
 
         /**                   Check two conditions : true and false       */
         if (10 == 9) {
-            System.out.println("True cond"); //выполняется когда тру
+            System.out.println("True cond"); // IF ВЫПОЛНЯЕТСЯ ТОЛЬКО КОГДА ТРУ!!!!!
         } else {
-            System.out.println("false cond"); //выполняется когда фолс
+            System.out.println("false cond"); //ELSE ТОЛЬКО КОГДА ФОЛС!!!!
         }
 
         /**                     Used when there are several options.        */

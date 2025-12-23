@@ -9,6 +9,9 @@ public class Switch {
   /**  Switch — это conditional statement, который выбирает, какой блок кода выполнить, в зависимости от значения
     переменной.  */
 
+        ///  switch — выбор ОДНОГО варианта
+        ///  if - МОЖЕТ дать несколько true
+
         Scanner scanner = new Scanner(System.in);
 
 
@@ -17,14 +20,13 @@ public class Switch {
         String user = scanner.nextLine();
 
         switch (user) { // свитч хавает только переменные и выражение (a + b пример)
-            // тип case должен совпадать с типом переменной.
             //' ' — это символ (тип char)
             //" " — это строка (тип String)
             // 1,2,3 - это число
             // enum значение
             // switch не работает с double/float
 
-            case "Serhii": // передаем возможный вариант который будет в свитч переменной
+            case "Serhii": // передаем возможный вариант который будет в свитч переменной (тип case должен совпадать с типом переменной.)
                 System.out.println("Middle AQA Engineer"); //выполняется код если case value == user variable
                 break; //  брейк останавливает свитч (выходит из него)
             case "Ioana":
@@ -55,7 +57,7 @@ public class Switch {
                 break;
             case '-':
                 result = first - second;
-                break;
+                break;  //  брейк останавливает свитч (выходит из него)
             case '/' :
                 if (first ==0 || second ==0){
                     System.out.println("Ошибка деления на 0");
