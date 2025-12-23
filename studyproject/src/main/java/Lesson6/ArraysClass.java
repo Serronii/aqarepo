@@ -8,7 +8,7 @@ public class ArraysClass {
     ///  An array -  is a variable that stores multiple values of the same type.
 
 
-    //Indexes start from 0.
+//    Indexes start from 0.
 //    int[] numbers = {1, 2, 3, 4};
 //
 //        System.out.println(numbers.length); // количество елементов (4)
@@ -33,11 +33,11 @@ public class ArraysClass {
 //
 //        System.out.println(titles[3]); //псследний индекс
 
-        //titles.length - ЭТО ВЫСОВ ЧИСЛА ЕЛЕМЕНТОВ ЛИСТА
+        //titles.length - ЭТО ВЫЗОВ ЧИСЛА ЕЛЕМЕНТОВ ЛИСТА
         //titles[1] - ЭТО ВЫЗОВ 1 ИНДЕКСА ИЗ ЛИСТА
 
 
-        //1. Перебор массива//////////////////////////////////////////////////////////////////
+        ///  1. Перебор массива   //////////////////////////////////////////////////////////////////
                          // всегда < если сравниваем индексы с количеством елементов.
         for (int i = 0; i < titles.length; i++) {
             System.out.println(titles[i]); //тут мы выводим индексы с 0 начинаем
@@ -48,11 +48,15 @@ public class ArraysClass {
             // 4 < 4 Ошибка (МЫ значения i присваиваем листу titles[i], а у нас только 3 индекса
         }
 
-        //2.  For-each (упрощённый перебор)
+        /// 2. For-each (упрощённый перебор)  //////////////////////////////////////////////////
+        ///    Iterates through all elements without indexes.
 
         for (String title : titles) {
             System.out.println(title);
         }
+
+        /// Нельзя добавлять / удалять элементы в МАССИВ
+        titles[4] = "New"; // ❌ если размер = 4
 
 
 

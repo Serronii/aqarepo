@@ -19,7 +19,8 @@ public class Switch {
         System.out.println("Please enter the user type with a capital letter :");
         String user = scanner.nextLine();
 
-        switch (user) { // свитч хавает только переменные и выражение (a + b пример)
+        switch (user) { // передаем переменную в которой будет менятся значение, а эти значения перебираем в кейсе
+            // свитч хавает только переменные и выражение (a + b пример)
             //' ' — это символ (тип char)
             //" " — это строка (тип String)
             // 1,2,3 - это число
